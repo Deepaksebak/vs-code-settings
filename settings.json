@@ -1,0 +1,55 @@
+// // Random settings
+{
+  "workbench.colorTheme": "oh-lucy",
+  "workbench.iconTheme": "moxer-icons",
+  // "editor.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace",
+  "editor.fontFamily": "Space Mono",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "typescript.inlayHints.parameterNames.enabled": "all",
+  "editor.fontSize": 16,
+  "editor.lineHeight": 2,
+  "notebook.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.fontWeight": "500",
+  "breadcrumbs.enabled": false,
+  "editor.renderWhitespace": "all",
+  "editor.minimap.enabled": false,
+  "workbench.statusBar.visible": false,
+  "editor.cursorBlinking": "smooth",
+  "terminal.integrated.cursorWidth": 5,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "workbench.sideBar.location": "right",
+  "workbench.editor.editorActionsLocation": "titleBar",
+  "editor.renderLineHighlight": "none",
+  "window.menuBarVisibility": "compact",
+  "editor.wordWrap": "on",
+  "debug.console.wordWrap": false,
+  "workbench.colorCustomizations": {
+    "editorSuggestWidget.selectedBackground": "#231739",
+    "sideBar.background": "#191521",
+    "list.activeSelectionBackground": "#231739",
+    "list.inactiveSelectionBackground": "#231739",
+    "list.focusBackground": "#231739",
+    "list.hoverBackground": "#231739",
+    "terminalCursor.foreground": "#C45DFF",
+    "terminal.fontFamily": "Cascadia Code",
+    "terminal.integrated.tabs.enabled": false,
+    "terminal.integrated.lineHeight": 1.5,
+    "terminal.integrated.fontSize": 14
+  },
+  "terminal.integrated.fontFamily": "cascadia code",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "debug.javascript.autoAttachSmartPattern": [
+    "${workspaceFolder}/**",
+    "**/$KNOWN_TOOLS$/**"
+  ],
+  "code-runner.clearPreviousOutput": true
+}
